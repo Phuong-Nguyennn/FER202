@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Card, Button, Row, Col, Badge, Modal, Toast, ToastContainer } from "react-bootstrap";
+import {
+  Card,
+  Button,
+  Row,
+  Col,
+  Badge,
+  Modal,
+  Toast,
+  ToastContainer
+} from "react-bootstrap";
 import { movies } from "../../data/movies";
 
 export default function MovieCard() {
@@ -79,17 +88,15 @@ export default function MovieCard() {
           autohide
           onClose={() => setShowToast(false)}
         >
-          <Toast.Body className="text-white">✅ Added to favourites!</Toast.Body>
+          <Toast.Body className="text-white">
+            ✅ Added to favourites!
+          </Toast.Body>
         </Toast>
       </ToastContainer>
 
       {/* Modal Details */}
       {selectedMovie && (
-        <Modal
-          show={showModal}
-          onHide={() => setShowModal(false)}
-          centered
-        >
+        <Modal show={showModal} onHide={() => setShowModal(false)} centered>
           <Modal.Header closeButton>
             <Modal.Title>{selectedMovie.title}</Modal.Title>
           </Modal.Header>
@@ -105,10 +112,15 @@ export default function MovieCard() {
               <strong>Country:</strong> {selectedMovie.country} <br />
               <strong>Duration:</strong> {selectedMovie.duration} phút <br />
               <strong>Genre:</strong>{" "}
-              <Badge bg="info" text="dark">{selectedMovie.genre}</Badge>
+              <Badge bg="info" text="dark">
+                {selectedMovie.genre}
+              </Badge>
             </p>
             <p>
-              <strong>Showtimes:</strong> {selectedMovie.showtimes.join(", ")}
+              <strong>Showtimes:</strong>{" "}
+              {selectedMovie.showtimes
+                ? selectedMovie.showtimes.join(", ")
+                : "Not available"}
             </p>
           </Modal.Body>
           <Modal.Footer>
