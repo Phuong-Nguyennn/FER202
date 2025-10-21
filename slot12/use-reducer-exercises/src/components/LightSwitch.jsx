@@ -1,10 +1,10 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from "react";
 import Button from 'react-bootstrap/Button';
 
-// 1️⃣ Khởi tạo state ban đầu
+//1 Khởi tạo state ban đầu
 const initialState = { isLightOn: false };
 
-// 2️⃣ Định nghĩa reducer để xử lý các action
+//2 Định nghĩa reducer để xử lý các action
 function reducer(state, action) {
   switch (action.type) {
     case 'TOGGLE':
@@ -19,7 +19,7 @@ function reducer(state, action) {
 }
 
 function LightSwitch() {
-  // 3️⃣ Khởi tạo useReducer
+  //3 Khởi tạo useReducer
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // Style cho button

@@ -1,5 +1,5 @@
 //CounterComponent.jsx is a functional component that uses the useReducer hook to manage a counter state.
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from "react";
 import { Button, Card } from 'react-bootstrap';
 
 // 1. Khởi tạo trạng thái ban đầu
