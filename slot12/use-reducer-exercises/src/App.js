@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CounterComponent from './components/CounterComponent';
 import LightSwitch from './components/LightSwitch';
-import QuestionBank from './components/QuestionBank';
 import LoginForm from './components/LoginForm';
-import LoginForm2 from './components/LoginForm2';
 import QuestionBanksApp from './components/QuestionBanksApp';
+import RegisterForm from './components/RegisterForm';
+import ModalComponent from './components/modalComponent';
 
 function App() {
 return (
@@ -14,13 +14,13 @@ return (
       <hr />
       <LightSwitch />
       <hr />
-      <QuestionBank />
-      <hr />
       <LoginForm />
       <hr />
-      <LoginForm2 />
+      <RegisterForm />
       <hr />
       <QuestionBanksApp />
+      <hr />
+      <ModalComponent />
     </div>
   );
 }
