@@ -103,7 +103,7 @@
     }
   ],
   "accounts": [
-    { "id": 1, "username": "admin", "password": "123456", "name": "Admin User" },
-    { "id": 2, "username": "john", "password": "1234", "name": "John Doe" }
+    { "id": 1, "username": "admin", "password": "123456", "name": "Ku Kem" },
+    { "id": 2, "username": "john", "password": "1234", "name": "Oi Ban Oi" }
   ]
 }
