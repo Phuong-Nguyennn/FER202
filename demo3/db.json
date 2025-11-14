@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1, "username": "admin", "password": "123456" },
+    { "id": 2, "username": "user", "password": "123456" }
+  ],
+  "motorbikes": [
+    { "id": 1, "brand": "Yamaha", "model": "Exciter 150", "year": 2022, "price": 48000000, "stock": 5, "image": "https://via.placeholder.com/300x180.png?text=Yamaha+Exciter+150" },
+    { "id": 2, "brand": "Honda", "model": "Winner X", "year": 2023, "price": 52000000, "stock": 3, "image": "https://via.placeholder.com/300x180.png?text=Honda+Winner+X" },
+    { "id": 3, "brand": "Suzuki", "model": "GSX-R150", "year": 2021, "price": 45000000, "stock": 4, "image": "https://via.placeholder.com/300x180.png?text=Suzuki+GSX-R150" },
+    { "id": 4, "brand": "Kawasaki", "model": "Ninja 400", "year": 2024, "price": 180000000, "stock": 2, "image": "https://via.placeholder.com/300x180.png?text=Kawasaki+Ninja+400" }
+  ]
+}

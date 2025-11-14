@@ -1,0 +1,11 @@
+{
+  "mobiles": [
+    { "id": 1, "name": "iPhone 15", "description": "Apple flagship phone", "price": 1200, "image": "/images/mobiles/iphone15.jpg" },
+    { "id": 2, "name": "Samsung S24", "description": "Galaxy S24 Ultra", "price": 1100, "image": "/images/mobiles/s24.jpg" },
+    { "id": 3, "name": "Xiaomi 14", "description": "Flagship killer", "price": 800, "image": "/images/mobiles/xiaomi14.jpg" }
+  ],
+  "users": [
+    { "id": 1, "username": "admin", "email": "admin@gmail.com", "password": "123456" },
+    { "id": 2, "username": "user1", "email": "user1@gmail.com", "password": "111111" }
+  ]
+}
